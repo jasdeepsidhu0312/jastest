@@ -9,7 +9,7 @@ public class SortArray {
         System.out.println("Sorted numbers: " + Arrays.toString(numbers));
 
         // Sorting strings
-        String[] words = {"Dog", "Cat", "Elephant", "Bee"};
+        String[] words = {"english", "Maths", "Science", "history"};
         Arrays.sort(words); // Sort the array
         System.out.println("Sorted words: " + Arrays.toString(words));
     }
