@@ -3,14 +3,14 @@ import java.util.Arrays;
 public class SortArray {
 
     public static void main(String[] args) {
-        // Sorting integers
+        // Sorting integers for marks
         int[] numbers = {4, 2, 7, 1, 5};
-        Arrays.sort(numbers); // Sort the array
+        Arrays.sort(numbers); // sorting the array
         System.out.println("Sorted numbers: " + Arrays.toString(numbers));
 
-        // Sorting strings
+        // Sorting strings for subjects
         String[] words = {"english", "Maths", "Science", "history"};
-        Arrays.sort(words); // Sort the array
+        Arrays.sort(words); // Sorting the array
         System.out.println("Sorted words: " + Arrays.toString(words));
     }
 }
