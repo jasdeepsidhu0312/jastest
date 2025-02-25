@@ -1,10 +1,17 @@
-# Sortable Array Exercise for Integration Project 1
-A simple Java program for sorting arrays of integers and strings.
+The SortArray Java program demonstrates sorting operations for numerical values and string-based data, including sorting city names from India in ascending and descending order.
 
-This project demonstrates basic sorting algorithms for arrays. 
-It is designed as a practice exercise for learning Git.
+1. Sorts an array of integers in ascending order.
 
-Need to install visual studio and Git Bash for this exercise
+2. Sorts an array of general strings alphabetically.
 
-The first array is int array that sorts marks 
-The second array is string array that sorts subjects
+3. Sorts a predefined list of Indian city names in both ascending and descending order.
+
+The program will output:
+
+1. Sorted numbers in ascending order.
+
+2. Sorted general words in ascending order.
+
+3. Indian city names sorted in ascending order.
+
+4. Indian city names sorted in descending order.
