@@ -1,0 +1,26 @@
+import java.util.Arrays;
+
+public class SortArray {
+
+    public static void main(String[] args) {
+        // Sorting integers
+        int[] numbers = {4, 2, 7, 1, 5};
+        Arrays.sort(numbers); // Sort the array
+        System.out.println("Sorted numbers: " + Arrays.toString(numbers));
+
+        // Sorting strings
+        String[] words = {"english", "Maths", "Science", "history"};
+        Arrays.sort(words); // Sort the array
+        System.out.println("Sorted words: " + Arrays.toString(words));
+
+        // Sorting city names
+        String[] cities = {"Mumbai", "Delhi", "Bangalore", "Chennai", "Hyderabad", "Kolkata"};
+        sortCities(cities); // Call method to sort city names
+        System.out.println("Sorted city names: " + Arrays.toString(cities));
+    }
+
+    // Method to sort city names
+    public static void sortCities(String[] cities) {
+        Arrays.sort(cities);
+    }
+}
